@@ -1,0 +1,167 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  background-color: #eeeeee;
+  display: block;
+  text-align: center;
+  border:20px solid #D3E0DC;
+  margin: 0;
+}
+.logo-bar{
+  margin:10px 1500px auto 5px;
+}
+.logo{
+  height: 10%;
+  width:10%;
+  position: fixed;
+  margin-top: 5px;
+
+}
+.profile{
+  height: 25%;
+  width:25%;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 150px;
+  margin-top: 40px;
+}
+.top-container{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.mid-container{
+  width: 70%;
+  margin: 30px auto 100px auto;
+}
+.lang-uage{
+
+  margin: 50px auto 50px auto;
+  letter-spacing: 4px;
+}
+.limg{
+  width:50%;
+  float: right;
+  margin-bottom: 50px;
+
+
+}
+h1{
+  color: #00adb5;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  font-family: 'Poiret One', cursive;
+}
+
+h3{
+  font-family: 'Poiret One', cursive;
+}
+.ide-cont{
+   letter-spacing: 4px;
+}
+.idebox{
+  width:50%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.arrow{
+  width:5%;
+
+  padding-top: 10px;
+  margin-left: 300px;
+
+}
+.arrow2{
+  width:5%;
+  padding-top: 10px;
+  margin-right:300px;
+
+}
+.container{
+  max-width: 1170px;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+
+
+}
+.footer{
+  padding: 70px 0;
+
+  margin-left: 300px;
+}
+.footer-col{
+  width: 40%;
+  padding: 0 20px;
+  text-align: center;
+
+}
+.footer-col h2{
+  color:#00adb5;
+  text-align: left;
+
+  padding-bottom: 15px;
+  font-family: 'Poiret One', cursive;
+}
+li{
+  text-align: left;
+  padding-bottom: 15px;
+}
+a{
+  color:black;
+  text-decoration: none;
+
+}
+a:hover{
+  color:#687980;
+}
+.bottom-container{
+  position: relative;
+  column-count: 4;
+  padding: 20px;
+  margin-left: 250px;
+
+}
+.gallery {
+  margin-bottom:7px;
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+div.gallery:hover img{
+  transform: scale(1,1);
+
+}
+
+ img {
+  width: 100%;
+  transition: 0.25s ease-in-out;
+}
+@media screen and (max-width:1024px){
+  .bottom-container{
+    column-count: 4;
+  }
+}
+@media screen and (max-width:768px){
+  .bottom-container{
+    column-count: 3;
+  }
+}
+@media screen and (max-width:425px){
+  .bottom-container{
+    column-count: 2;
+  }
+}
+@media screen and (max-width:375px){
+  .bottom-container{
+    column-count: 1;
+  }
+}

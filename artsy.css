@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  background-color: #d3e0dc;
+  border:20px solid #A7C4BC;
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+
+}
+h2{
+  font-family: 'Poiret One', cursive;
+}
+h3{
+  font-family: 'Poiret One', cursive;
+  color:#393E46;
+  font-weight: bolder;
+}
+.container{
+  width:60%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+.sitemap{
+  width:600px;
+}
+.ul{
+  list-style: none;
+}
+.infoarch{
+  text-align: center;
+  font-size: 11px;
+}
+.onboarding{
+  width:700px;
+}
+.onboarding2{
+  width:350px;
+
+
+}
